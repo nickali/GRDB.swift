@@ -8,7 +8,7 @@ import GRDB
 /// of players.
 ///
 /// This class is testable. See `PlayerListModelTests.swift`.
-@Observable @MainActor final class PlayerListModel {
+@Observable final class PlayerListModel {
     /// A player ordering
     enum Ordering {
         case byName
