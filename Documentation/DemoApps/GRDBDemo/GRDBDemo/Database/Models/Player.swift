@@ -5,7 +5,7 @@ import GRDB
 /// Identifiable conformance supports SwiftUI list animations, and type-safe
 /// GRDB primary key methods.
 /// Equatable conformance supports tests.
-struct Player: Equatable {
+nonisolated struct Player: Equatable {
     /// The player id.
     ///
     /// Int64 is the recommended type for auto-incremented database ids.
