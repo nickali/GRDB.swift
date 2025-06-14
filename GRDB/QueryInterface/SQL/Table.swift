@@ -142,7 +142,7 @@
 /// ### Database Observation Support
 ///
 /// - ``databaseRegion(_:)``
-public struct Table<RowDecoder>: Sendable {
+public struct Table<RowDecoder: SendableMetatype>: Sendable {
     /// The table name.
     public var tableName: String
     
